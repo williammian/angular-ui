@@ -1,8 +1,26 @@
+//desinstalar versao do angular CLI
+npm uninstall -g @angular/CLI
+
+//limpar cache local da maquina
+npm cache clean
+
+//instalar angular CLI
+npm install -g @angular/cli
+
+//verificar versao do angular cli
+ng version
+
+//criando um novo projeto
+ng new meuprojeto
+
 //para instalar dependencias (node_modules)
 npm install
 
-//para servir o projeto (subir em localhost:4200)
+//para servir o projeto / iniciar um servidor de testes (subir em localhost:4200)
 ng serve
+
+//ou (para trocar de porta)
+ng serve --port 8181
 
 //para criar um componente usando Angular CLI
 ng generate component nome-componente
