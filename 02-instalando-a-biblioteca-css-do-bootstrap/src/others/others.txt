@@ -1,0 +1,6 @@
+//instalando biblioteca CSS do Bootstrap
+npm install bootstrap --save
+
+//ou -> npm install bootstrap@next --save
+
+//--save para salvar a entrada no package.json
