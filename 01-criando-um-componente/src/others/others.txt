@@ -1,0 +1,11 @@
+//para instalar dependencias (node_modules)
+npm install
+
+//para servir o projeto (subir em localhost:4200)
+ng serve
+
+//para criar um componente usando Angular CLI
+ng generate component nome-componente
+
+//ou
+ng g c nome-componente
