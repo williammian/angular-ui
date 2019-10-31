@@ -1,0 +1,2 @@
+//criando a diretiva
+ng g c d campo-colorido.directive --spec=false
