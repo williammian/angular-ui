@@ -22,8 +22,10 @@ export class AppComponent {
     //this.cliente.email = form.value.emailAddress;
     //this.cliente.profissao = form.value.profissao;
 
-    console.log(form.value);
-    console.log(this.cliente);
+    console.log(form);
+
+    //console.log(form.value);
+    //console.log(this.cliente);
   }
 
 }
